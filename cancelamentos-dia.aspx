@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Cancelamentos Dia" Language="vb" AutoEventWireup="false" MasterPageFile="~/Normalmaster.master" CodeBehind="cancelamentos-dia.aspx.vb" Inherits="conteltelecom.cancelamentos_dia" %>
+﻿<%@ Page Title="Cancelamentos Dia" Language="vb" AutoEventWireup="false" MasterPageFile="~/Normalmaster.master" CodeBehind="cancelamentos-dia.aspx.vb" Inherits="" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHeadNormal" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderNormal" runat="server">
