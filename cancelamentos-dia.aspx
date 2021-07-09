@@ -288,11 +288,11 @@
 
     
 
-        <asp:SqlDataSource ID="SqlDataSourceVendasMarca" CancelSelectOnNullParameter="true" runat="server" ConnectionString="<%$ ConnectionStrings:conteltelecomConnectionString %>" SelectCommand="SELECT ALUGUEL_LINHAS_CONTRATOS.dataContrato_ALUGUEL_LINHAS_CONTRATOS, ALUGUEL_LINHAS_CONTRATOS.dataCancelamento_ALUGUEL_LINHAS_CONTRATOS, ALUGUEL_LINHAS_CONTRATOS.id_ALUGUEL_LINHAS_CLIENTES, ALUGUEL_LINHAS_CLIENTES.nome_ALUGUEL_LINHAS_CLIENTES , dbo.MascaraTelefone(numero_ALUGUEL_LINHAS_CHIPS) as numero_ALUGUEL_LINHAS_CHIPS from ALUGUEL_LINHAS_CONTRATOS INNER JOIN ALUGUEL_LINHAS_CLIENTES ON ALUGUEL_LINHAS_CLIENTES.id_ALUGUEL_LINHAS_CLIENTES = ALUGUEL_LINHAS_CONTRATOS.id_ALUGUEL_LINHAS_CLIENTES inner join aluguel_linhas_contratos_linhas ON aluguel_linhas_contratos_linhas.id_ALUGUEL_LINHAS_CONTRATOS=ALUGUEL_LINHAS_CONTRATOS.id_ALUGUEL_LINHAS_CONTRATOS INNER JOIN ALUGUEL_LINHAS_CHIPS ON ALUGUEL_LINHAS_CHIPS.id_ALUGUEL_LINHAS_CHIPS = ALUGUEL_LINHAS_CONTRATOS_LINHAS.id_ALUGUEL_LINHAS_CHIPS WHERE st_ALUGUEL_LINHAS_CONTRATOS = 0 AND (ALUGUEL_LINHAS_CONTRATOS.id_FRANQUIA = @idEmpresa_PS_PESSOA) and convert(DATE, ALUGUEL_LINHAS_CONTRATOS.dataCancelamento_ALUGUEL_LINHAS_CONTRATOS ) = ISNULL(@dataselecionada, CONVERT(date, dataCancelamento_ALUGUEL_LINHAS_CONTRATOS )) ORDER BY dataCancelamento_ALUGUEL_LINHAS_CONTRATOS DESC">
+        <asp:SqlDataSource ID="" CancelSelectOnNullParameter="true" runat="server" ConnectionString="<%$ ConnectionStrings:conteltelecomConnectionString %>" SelectCommand="">
 
         <SelectParameters>
-         <asp:SessionParameter SessionField="idEmpresa_PS_PESSOA" Name="idEmpresa_PS_PESSOA"></asp:SessionParameter>
-        <asp:Parameter Name="dataselecionada" ConvertEmptyStringToNull="False"></asp:Parameter>       
+         <asp:SessionParameter SessionField="" Name=""></asp:SessionParameter>
+        <asp:Parameter Name="" ConvertEmptyStringToNull="False"></asp:Parameter>       
         </SelectParameters>
 
 </asp:SqlDataSource>
