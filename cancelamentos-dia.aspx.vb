@@ -98,7 +98,7 @@ Public Class cancelamentos_dia
     End Sub
 
     Protected Sub Unnamed_Click1(sender As Object, e As EventArgs)
-        Response.Redirect("~/web/area_cliente/franquia/aluguel-linhas/relatorios/cancelamentos-dia.aspx")
+        Response.Redirect("")
     End Sub
 
 End Class
