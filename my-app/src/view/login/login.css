@@ -1,0 +1,31 @@
+.login-content{
+    width: 100%;
+    padding: 15%;
+    margin: auto;
+    background-image: url("https://i1.wp.com/www.legalnote.com.br/blog/wp-content/uploads/2017/05/Gest%C3%A3o-de-Escrit%C3%B3rio-de-Advocacia-5-dicas-valiosas-para-novos-advogados.jpg?fit=960%2C480&ssl=1");
+    height: 100vh;
+    background-size: cover;
+    background-position: contain; 
+    background-repeat: no-repeat;
+   
+
+}
+
+.btn-login{
+    background-color: #fff;
+    color:#614ea6 ;
+    transition: .3s ease-in;
+
+}
+.btn-login:hover{
+    background-color: #f21667;
+    color: #fff;
+}
+.opcoes-login a{
+    text-decoration: none;
+    color: #fff;
+}
+.opcoes-login a:hover{
+    transition: .3s ease-in;
+    color: #f21667;
+}
