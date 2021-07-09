@@ -2,7 +2,7 @@
 
 
       
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     
     <span id='topo'></span>
     <div id="caixaAlerta" class="alert" style="padding:0;" runat="server"></div>
